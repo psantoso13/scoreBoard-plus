@@ -2,13 +2,13 @@ import img from "./truckHorn.png"
 
 const AirHorn = () => {
 
-  const gameEnd = () => {
+  const gabut = () => {
     const gameSelesai = new Audio('src/assets/mp3/airHorn.mp3');
     gameSelesai.play()
   }
-  const gabut = () => {
-    gameEnd ();
-  };
+  // const gabut = () => {
+  //   gameEnd ();
+  // };
 
 
   return (
